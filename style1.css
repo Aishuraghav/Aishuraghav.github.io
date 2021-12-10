@@ -1,0 +1,200 @@
+body{
+	margin:auto 0;
+}
+
+.zone{
+	cursor:pointer;
+	font-size:1.5em;
+	color:#FFF;
+	border-radius:2px;
+	border:1px solid;
+	transition:all 0.3s linear;
+}
+
+/*header*/
+
+.main-nav{
+	display:flex;
+	list-style:none;
+	font-size:0.8em;
+	margin:0;
+}
+
+@media only screen and (max-width:600px){
+	.main-nav{
+		font-size:0.5em;
+		padding:0;
+	}
+}
+
+li{
+	padding:20px;
+}
+
+.push{
+	margin-left:auto;
+}
+
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+/*Cover*/
+
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+.container{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:50vh; /*viewport height*/
+}
+
+.cover{
+	margin-top:80px;
+	width:350px;
+	height:200px;
+}
+
+/*About*/
+
+p{
+	font-size:23px;;
+	margin:0;
+	padding-left:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:70px;
+}
+
+
+/*Gallery*/
+
+/*Grid*/
+
+.grid-wrapper{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:repeat(auto-fill, minmax(350px,1fr));	
+}
+
+.box > img{
+	width:100%;
+}
+
+.box{
+	background-color:#444;
+	padding:60px;
+	margin:20px;
+}
+
+.box:hover{
+	-webkit-transform:rotate(-7deg);
+	-moz-transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg);
+	-o-transform:rotate(-7deg);
+	transform:rotate(-7deg)
+	
+}
+
+/*Subscription*/
+
+form{
+	padding:20px;
+	width:350px;
+	background-color:#666;
+	margin-left:475px;
+	line-height:1.6;
+}
+
+.comment{
+	width:45%;
+	height:30px;
+	padding:10px;
+}
+
+.btn{
+	border-radius:2px;
+	text-transform:uppercase;
+	padding:5px;
+	margin-top:30px;
+	margin-left:10px;
+}
+
+.btn-primary{
+	background-color:#CCC;
+	border-color:#CCC;
+}
+
+.btn-primary:hover{
+	background-color:#333;
+	border-color:#333;
+	border-width:4px;
+}
+
+
+/*Contact*/
+
+.details{
+	list-style:none;
+	font-size:0.75em;
+	margin:0;
+	padding-left:110px;
+	padding-bottom:60px;
+}
+
+.buffer{
+	height:10px;
+}
+
+/*Footer*/
+footer{
+	text-align:center;
+}
+
+.green{
+	background-color:#6C3;
+	border:1px;
+}
+
+.green:hover{
+	background-color:#57F05F;
+}
+
+.red{
+	background-color:#F00;
+	border:1px;
+}
+
+.red:hover{
+	background-color:#FF4242;
+}
+
+.blue{
+	background-color:#54CADE;
+	border:1px;
+}
+
+.blue:hover{
+	background-color:#0CF;
+}
+
+.grey{
+	background-color:#54CADE;
+	border:1px;
+	padding-top:20px;
+}
+
+.yellow{
+	background-color:#FC0;
+	border:1px;
+}
+
+.yellow:hover{
+	background-color:#CF6;
+}
